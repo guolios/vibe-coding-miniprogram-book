@@ -13,12 +13,13 @@
 
 1. Fork 本仓库，基于 `main` 创建分支（如 `fix/beian-timeline`）
 2. 修改 `docs/` 下对应的章节 Markdown 文件
-3. **如同时修改了章节内容**，请重新生成站点数据：
+3. **如同时修改了章节内容**，请重新生成站点数据与整本文件：
    ```bash
    pip install markdown
-   python3 tools/build_data.py
+   python3 tools/build_data.py   # → assets/data.js（在线站点）
+   python3 tools/build_book.py   # → 全书.md
    ```
-   （只改 `docs/` 不重新构建，在线站点不会更新）
+   （只改 `docs/` 不重新构建，在线站点和整本都不会更新）
 4. 提交 PR，说明改动原因，**涉及规则变更的请附上微信官方公告链接**
 
 ## 写作约定

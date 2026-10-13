@@ -67,7 +67,7 @@
       '<h1>' + esc(DATA.title) + "</h1>" +
       '<p class="hero-sub">' + esc(DATA.subtitle) + "</p>" +
       '<div class="hero-meta">' +
-      "<span>" + chapters.length + " 章 · 含 2 个速查附录</span>" +
+      "<span>" + chapters.length + " 节 · 含 2 个速查附录</span>" +
       "<span>全文约 " + Math.round(totalWords / 1000) + "k 字</span>" +
       "<span>零基础可读</span>" +
       "<span>更新于 " + esc(DATA.updated) + "</span>" +

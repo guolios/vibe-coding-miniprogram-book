@@ -25,7 +25,7 @@
 
 ## 📚 内容结构
 
-全书共 **11 章 + 2 个速查附录**，约 2.9 万字，按章节拆分为独立 Markdown 文件：
+全书共 **13 节**（导读 + 10 章正文 + 2 个速查附录），约 3 万字，按章节拆分为独立 Markdown 文件：
 
 | 章节 | 内容 |
 | --- | --- |
@@ -42,12 +42,15 @@
 | [第十章](docs/10-常见问题FAQ.md) | 常见问题 FAQ |
 | [附录一](docs/附录一-小程序规范速查手册.md) | 小程序规范速查手册 |
 | [附录二](docs/附录二-AI编程工具开发小程序速查.md) | AI 编程工具速查（含工具选型与官方 Skills） |
+| [整本](全书.md) | 13 节合并的全文，适合整篇阅读或整本喂给 AI |
 
 ## 🗂️ 仓库结构
 
 ```
 ├── docs/                 # 全书章节（单一事实源，按章节拆分）
+├── 全书.md               # 由 docs/ 合并生成的整本（别手改）
 ├── tools/build_data.py   # 构建脚本：docs/*.md → assets/data.js
+├── tools/build_book.py   # 构建脚本：docs/*.md → 全书.md
 ├── assets/
 │   ├── style.css         # 站点样式（浅/暗双主题）
 │   ├── app.js            # 站点逻辑（hash 路由 / 目录 / 搜索）
@@ -62,10 +65,15 @@
 # 生成 assets/data.js（依赖：pip install markdown）
 python3 tools/build_data.py
 
+# 生成 全书.md
+python3 tools/build_book.py
+
 # 本地预览（任选其一）
 python3 -m http.server 8000
 # 打开 http://localhost:8000
 ```
+
+> 改了 `docs/` 里的任何一节，两个脚本都要重跑，否则站点和整本不会更新。
 
 ## ⚠️ 规则时效声明
 
