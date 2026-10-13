@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#e5e5e5" stroke-width="2"/>
+
+  <!-- 顶部品牌行 -->
+  <g transform="translate(80, 84)">
+    <rect x="0" y="0" width="34" height="34" rx="9" fill="#0a0a0a"/>
+    <path d="M10 12 L17 17 L10 22" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="23" font-size="17" font-weight="600" fill="#0a0a0a">AI 编程 · 零基础实战</text>
+  </g>
+
+  <!-- 主标题 -->
+  <text x="80" y="260" font-size="76" font-weight="800" fill="#0a0a0a" letter-spacing="-1">Vibe Coding</text>
+  <text x="80" y="360" font-size="76" font-weight="800" fill="#0a0a0a" letter-spacing="-1">微信小程序全流程指南</text>
+
+  <!-- 副标题 -->
+  <text x="80" y="428" font-size="27" fill="#525252">从想法到上线：需求 · 开发 · 部署 · 注册 · 认证 · 备案 · 收款 · 提审</text>
+
+  <!-- 标签 -->
+  <g transform="translate(80, 490)">
+    <rect x="0" y="0" width="128" height="42" rx="21" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <text x="64" y="27" font-size="16" fill="#404040" text-anchor="middle">11 章 + 2 附录</text>
+    <rect x="146" y="0" width="152" height="42" rx="21" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <text x="222" y="27" font-size="16" fill="#404040" text-anchor="middle">约 2.9 万字</text>
+    <rect x="316" y="0" width="128" height="42" rx="21" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <text x="380" y="27" font-size="16" fill="#404040" text-anchor="middle">零基础可读</text>
+  </g>
+
+  <!-- 右下角装饰：小程序对话气泡 -->
+  <g transform="translate(880, 380)" opacity="0.9">
+    <rect x="0" y="0" width="240" height="120" rx="22" fill="#ffffff" stroke="#e5e5e5" stroke-width="2"/>
+    <circle cx="40" cy="40" r="12" fill="#0a0a0a"/>
+    <circle cx="80" cy="40" r="12" fill="#a3a3a3"/>
+    <circle cx="120" cy="40" r="12" fill="#d4d4d4"/>
+    <rect x="30" y="72" width="150" height="12" rx="6" fill="#e5e5e5"/>
+    <rect x="30" y="94" width="90" height="12" rx="6" fill="#f0f0f0"/>
+    <path d="M60 120 L60 148 L88 120" fill="#ffffff" stroke="#e5e5e5" stroke-width="2"/>
+  </g>
+</svg>
