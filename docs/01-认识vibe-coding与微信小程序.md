@@ -38,7 +38,7 @@ Vibe coding，直译是"氛围编程"，说人话就是：
 
 > 打个比方：AI 是设计师，微信开发者工具是印刷厂。图纸画得再好，最后也得印刷厂来印。
 
-AI 编程工具怎么选？市面上主流的有 Cursor、Claude Code、GitHub Copilot、Windsurf、Trae、通义灵码、CodeBuddy、WorkBuddy 等，对零基础读者来说**都能完成本书的全部工作**，区别只在交互习惯和价格。选型对比见[附录二 B1](附录二-AI编程工具开发小程序速查.md)，拿不定主意就挑一个顺手的开始，工具随时可以换。
+AI 编程工具怎么选？市面上主流的有 Cursor、Claude Code、GitHub Copilot、Windsurf、Trae、Qoder CN（原通义灵码）、CodeBuddy、WorkBuddy 等，对零基础读者来说**都能完成本书的全部工作**，区别只在交互习惯和价格。选型对比见[附录二 B1](附录二-AI编程工具开发小程序速查.md)，拿不定主意就挑一个顺手的开始，工具随时可以换。
 
 ### 1.4 哪些事 AI 能做，哪些事必须你本人做
 
