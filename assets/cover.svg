@@ -29,13 +29,19 @@
   <ellipse cx="1010" cy="90" rx="420" ry="260" fill="url(#glow)"/>
   <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#e5e5e5" stroke-width="2"/>
 
-  <!-- 顶部品牌行 -->
-  <g transform="translate(80, 76)">
-    <rect x="0" y="0" width="36" height="36" rx="10" fill="#0a0a0a"/>
-    <path d="M9 18 L18 9 M18 9 L18 18 M18 9 L9 9" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="52" y="25" font-size="17" font-weight="600" fill="#0a0a0a">AI 编程 · 零基础实战</text>
-    <line x1="240" y1="18" x2="620" y2="18" stroke="#e5e5e5" stroke-width="1.5"/>
+  <!-- 顶部品牌行：品牌 LOGO -->
+  <g transform="translate(80, 62) scale(0.11)">
+    <rect width="512" height="512" rx="113" fill="#07C160"/>
+    <rect x="110" y="118" width="292" height="218" rx="56" fill="#ffffff"/>
+    <g fill="none" stroke="#07C160" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M196 181 L166 227 L196 273"/>
+      <path d="M222 273 L290 181"/>
+      <path d="M316 181 L346 227 L316 273"/>
+    </g>
+    <path d="M384 330 L442 396 L384 462" fill="none" stroke="#ffffff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
+  <text x="156" y="97" font-size="17" font-weight="600" fill="#0a0a0a">AI 编程 · 零基础实战</text>
+  <line x1="345" y1="90" x2="620" y2="90" stroke="#e5e5e5" stroke-width="1.5"/>
 
   <!-- 主标题 -->
   <text x="80" y="272" font-size="86" font-weight="800" fill="#0a0a0a" letter-spacing="-2">Vibe Coding</text>

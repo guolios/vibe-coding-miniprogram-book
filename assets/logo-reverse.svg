@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 反白版：用于深色背景。图形用微信绿，底板透明 -->
+  <rect x="110" y="118" width="292" height="218" rx="56" fill="#ffffff"/>
+  <g fill="none" stroke="#07C160" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M196 181 L166 227 L196 273"/>
+    <path d="M238 273 L278 181"/>
+    <path d="M316 181 L346 227 L316 273"/>
+  </g>
+  <path d="M384 330 L442 396 L384 462" fill="none" stroke="#ffffff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
